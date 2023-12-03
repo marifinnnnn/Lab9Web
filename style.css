@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400");
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    margin-top: 10px;
+}
+
+table,
+td,
+th {
+    border: 1px solid;
+    padding: 8px;
+}
+
+table {
+    margin-top: 25px;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.input label {
+    display: inline-block;
+    width: 120px;
+    margin-right: 60px;
+    margin-bottom: 10px;
+}
+
+.input input {
+    padding: 5px 0;
+    width: 250px;
+}
+
+.input select {
+    padding: 5px 50px;
+}
+
+.submit {
+    margin-left: 185px;
+}
+
+.submit input {
+    background: #1e90ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 12px 12px;
+    cursor: pointer;
+}
+
+.submit input:hover {
+    background: #1a7fe3;
+}
